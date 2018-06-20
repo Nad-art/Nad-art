@@ -1,14 +1,14 @@
 import React from 'react'
 //import SwipeableViews from 'react-swipeable-views'
 import Dates from './Dates.js'
-import '../styles/SplashScreen.css'
+import '../styles/Connexion.css'
 
-const Home = () => {
+const Connexion = () => {
     return (
-        <div className="splash-screen flex">
+        <div className="connexion flex">
             <Dates />
         </div>
     )
 }
 
-export default Home
+export default Connexion
