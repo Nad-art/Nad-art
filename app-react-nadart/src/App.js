@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Home from './components/Home-1.js'
+import Home from './components/SplashScreen.js'
 import 'reset-css'
-import './style/App.css'
+import './styles/App.css'
 
 class App extends Component {
   render() {
