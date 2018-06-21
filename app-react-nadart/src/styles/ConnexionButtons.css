@@ -16,3 +16,6 @@ button span{
     font-weight : 700;
     text-transform: lowercase;
 }
+a{
+    text-decoration: none;
+}

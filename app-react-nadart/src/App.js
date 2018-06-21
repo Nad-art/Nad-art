@@ -13,10 +13,10 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <Connexion path='/connexion' />
+          <Home path='/home' />
           <Community path='/community' />
           <Challenge path='/challenge' />
-          <Home path='/' />
+          <Connexion path='/' />
         </Router>
        
 

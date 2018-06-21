@@ -17,7 +17,7 @@ const Tabbar = () => {
         fullWidth
       >
         <nav className='navbar'>
-          <Link className='link' to='/'  >
+          <Link className='link' to='/home'  >
             <img className="icon-tab" src={HomeIcon} />
             <span className="link-tab">Accueil</span>
           </Link>

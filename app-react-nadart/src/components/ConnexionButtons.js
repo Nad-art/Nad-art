@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
+import { Link } from '@reach/router'
 import '../styles/ConnexionButtons.css'
 
 const buttons = {
@@ -20,12 +21,14 @@ const buttons = {
 const ConnexionButtons = () => {
     return (
         <div className="buttons-container">
-            <Button variant="contained" style={buttons.white}>
-                Connexion Facebook
-            </Button>
-            <Button variant="contained" style={buttons.black}>
-                Connexion Google
-            </Button>
+            <Link to="/home"> 
+                <Button variant="contained" style={buttons.white}>
+                    Connexion Facebook
+                </Button>
+                <Button variant="contained" style={buttons.black}>
+                    Connexion Google
+                </Button>
+            </Link>
         </div>
     )
 }
