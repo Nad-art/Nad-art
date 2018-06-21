@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'basker';
+  src: url('../fonts/Baskerville-Bold.otf') format('otf'),
+ }
+
 .container-home {
   background-color: #dabc7e;
-  height: 416px;
+  height: 62%;
   padding-bottom: 20px;
 }
 
@@ -25,6 +30,11 @@
   width: 97%;
   margin-top: 4px;
   text-align: center;
+}
+
+.date-home {
+  position: absolute;
+  margin-top: 15px;
 }
 
 .bnf {
@@ -59,6 +69,7 @@
 }
 
 .start-challenge {
+  font-family: 'basker';
   color: #000;
   font-weight: 600;
 }
@@ -72,14 +83,15 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
   background-color: #fff;
-  height: 319px;
-  padding-bottom: 20px;
+  height: 280px;
+  margin-bottom: 20px;
   background-color: #444;
 }
 
 .bottom-title {
+  font-family: 'basker';
   color: #fff;
   font-weight: 600;
   text-align: center;

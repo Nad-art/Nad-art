@@ -16,22 +16,22 @@ const Home = () =>
     <div className='top-home'>
       <div className='bkg-nadar'>
         <p className='bnf'>à la BNF Paris</p>
-        {/* <Date className='date-home' /> */}
-        <img className='img-nadar' src={nadar} alt='nadar'/>
-        <img className='camera' src={camera} alt='camera'/>
-        <div className='selfie-text'>Un selfie chaque jour pour<br/>
+        <div className='date-home'><Date /></div>
+        <img className='img-nadar' src={nadar} alt='nadar' />
+        <img className='camera' src={camera} alt='camera' />
+        <div className='selfie-text'>Un selfie chaque jour pour<br />
           avoir votre place à 12€
         </div>
-        <hr className='shape'/>
+        <hr className='shape' />
         <p className='start-challenge'>Démarrer le challenge</p>
-  </div>
-
-        <Anecdote />
-      <div className='bottom-home'>
-        <h2 className='bottom-title'>LES NADARS <br/> PAR LES NADARS</h2>
       </div>
-    </div>
-        <Tabbar />
+      </div>
+      <Anecdote />
+      <div className='bottom-home'>
+        <h2 className='bottom-title'>LES NADARS <br /> PAR LES NADARS</h2>
+      </div>
+    
+    <Tabbar />
   </div>
 
 
