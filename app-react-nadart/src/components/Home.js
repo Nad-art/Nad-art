@@ -1,6 +1,7 @@
 import React from 'react'
 import Date from './Dates.js'
 import Tabbar from './Tabbar.js'
+import Anecdote from './Anecdote.js'
 
 
 import '../styles/Home.css'
@@ -25,7 +26,10 @@ const Home = () =>
         <p className='start-challenge'>Démarrer le challenge</p>
   </div>
 
-      <div className='bottom-home'></div>
+        <Anecdote />
+      <div className='bottom-home'>
+        <h2 className='bottom-title'>LES NADARS <br/> PAR LES NADARS</h2>
+      </div>
     </div>
         <Tabbar />
   </div>

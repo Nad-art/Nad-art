@@ -1,8 +1,9 @@
 import React from 'react'
+import '../styles/Anecdote.css'
 
 const Anecdote = () => 
   <div>
-    Les annecdotes d'expositions
+    <h2 className='anecdote-title'>Anecdote de nadar</h2>
   </div>
 
 

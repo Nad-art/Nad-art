@@ -67,3 +67,22 @@
   position: relative;
   text-align: center;
 }
+
+.bottom-home {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #fff;
+  height: 319px;
+  padding-bottom: 20px;
+  background-color: #444;
+}
+
+.bottom-title {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 50px; 
+}
