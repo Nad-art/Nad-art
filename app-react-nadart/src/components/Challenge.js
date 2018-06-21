@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Challenge.css'
 import Tabbar from './Tabbar.js'
-
+import maevaPicture from '../images/maeva.png' 
 
 
 
@@ -14,12 +14,20 @@ const Challenge = () => {
               <p> Plus que <span className='photo-span'> 3 photos </span></p>
               <p>pour debloquer le billet pour la visite à 12€</p>
             </div>
-            <div className='selfie-challenge'>
-                 les photos du challenge
-            </div>
+
 
             <div className='extension-photo'>
-
+            {/*<img className='extension-photo' src={maevaPicture} alt='maeva' />*/}
+            <div className='selfie-challenge'>
+                 <div className='selfie-capture'> photo 1 </div>
+                 <div className='selfie-capture'> photo 2 </div>
+                 <div className='selfie-capture'> photo 3 </div>
+                 <div className='selfie-capture'> photo 4 </div>
+            </div>
+            <div className='desc-selfie' />
+                <h4> Photo 1 </h4>
+                <p> 12 juin 2018</p>
+            
             </div>
             <Tabbar />
         </div>

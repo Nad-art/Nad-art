@@ -14,8 +14,8 @@ class App extends Component {
       <div className="App">
         <Router>
           <Connexion path='/connexion' />
-          <Community path='community' />
-          <Challenge path='challenge' />
+          <Community path='/community' />
+          <Challenge path='/challenge' />
           <Home path='/' />
         </Router>
        

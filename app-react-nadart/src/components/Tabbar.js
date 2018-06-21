@@ -17,10 +17,10 @@ const Tabbar = () => {
             fullWidth
           >
           <nav>
-            <Link className='link' to='/' > <Tab icon={<HomeIcon />} label="Accueil" /> </Link>
-            <Link className='link' to='community'> <Tab icon={<PublicIcon />} label="communauté" /></Link>
-            <Link className='link' to='challenge' > <Tab icon={<StarIcon />} label="Challenge" /> </Link>
-            <Link className='link' to='community'> <Tab icon={<PersonIcon />} label="Profil" /></Link>
+            <Link className='link' to='/'  > <Tab icon={<HomeIcon />} label="Accueil" /> </Link>
+            <Link className='link' to='/community' > <Tab icon={<PublicIcon />} label="communauté" /></Link>
+            <Link className='link' to='/challenge' > <Tab icon={<StarIcon />} label="Challenge" /> </Link>
+             <Tab icon={<PersonIcon />} label="Profil" />
           </nav>
           </Tabs>
   
