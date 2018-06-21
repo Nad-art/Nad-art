@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'basker';
+  src: url('../fonts/Baskerville-Bold.otf') format('otf'),
+ }
+
+.anecdote-title {
+  font-family: 'basker';
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 60px;
+}

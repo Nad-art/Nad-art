@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+.tab-bar {
+    position: sticky;
+    bottom: 0;
+    width:100%;
+    font-size: 1px;
+}
+
+.tab-bar-tabs {
+    background-color: #333333; 
+    color: white;
+    font-size: 1px;
+}
+
+.link {
+    color: white; 
+    font-size: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.icon-tab{
+    max-width : 30px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+.link-tab{
+    font-size : 12px;
+    text-transform: uppercase;
+}

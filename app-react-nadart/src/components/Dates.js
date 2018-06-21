@@ -14,6 +14,7 @@ const Dates = () => {
                 <p className="date-month">fev.</p>
                 <p className="date-year">2019</p>
             </div>
+
         </div>
 }
 
