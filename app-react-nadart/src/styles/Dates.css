@@ -12,7 +12,9 @@
     text-align: right;
     border-right: 1px solid #fff;
 }
-
+.right-part{
+    text-align: left;
+}
 p {
     color: #fff;
     font-weight: 700;
