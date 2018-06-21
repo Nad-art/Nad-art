@@ -1,9 +1,17 @@
 import React from 'react'
 import '../styles/Community.css'
+import Tabbar from './Tabbar.js'
+
+
+
 
 const Community = () => {
     return (
-        <div> Page communauté! </div>
+        <div> 
+            <div >Page communauté! 
+            </div>
+            <Tabbar />
+        </div>
     )
 
 }
