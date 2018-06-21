@@ -1,0 +1,61 @@
+.community-nadar {
+    background-color: #dabc7e;
+    text-align: center;
+    height: 148px;
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size:20px;
+    line-height: 1.3;
+}
+
+.selfies {
+    color: black;
+}
+.profil-picture {
+    border-radius: 50%;
+}
+.community-like {
+    display: flex;
+    text-align: center;
+   align-items: center;
+   justify-content: space-around;
+  
+
+}
+.community-selfie {
+    /*width:100%;*/
+    background-color: black;
+    color: white;
+
+}
+.selfie {
+    /*width:100%;*/
+    padding: 10px;
+    display:flex;
+    background-color:white;
+    color :black;
+}
+
+.selfie-Picture{
+    width:100%;
+
+   
+}
+.selfie-desc{
+    width:80%;
+    padding-left:20px;
+    background-color:white;
+    color :black;
+   vertical-align: middle;
+  
+}
+.selfie-picture-img {
+    width:100%;
+}
