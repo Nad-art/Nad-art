@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Community.css'
-import FavoriteIcon from '@material-ui/icons/Favorite'
+import like from '../images/like.png'
+import dislike from '../images/dislike.png'
 
 import blondManPicture from '../images/blond-man.jpg' 
 
@@ -10,7 +11,7 @@ const CommunitySelfie = () => {
         <div className='community-selfie'>
             <div className='community-like'>
                 <div className='vote-like'> 
-                    <FavoriteIcon />
+                    <img src={like} alt='like' className='heart-like'/>
                     <p>15</p>
                     <p>J'ai voté</p>
                 </div>
@@ -21,7 +22,7 @@ const CommunitySelfie = () => {
                 </div>  
 
                <div className='vote-dislike'>   
-                    <FavoriteIcon />
+               <img src={dislike} alt='dislike'className='heart-dislike'/>
                    <p>2</p>
                 </div>
  
@@ -31,13 +32,12 @@ const CommunitySelfie = () => {
             <img className='selfie-picture-img' src={blondManPicture} alt='blond man'/>
         </div>
         <div className='selfie-desc'>
-        <br />
-        <br />
-            Portrait moderne d'homme blond avec regard direct dans la caméra.<br />
-            Fond gris accompagné d'habits de l'époque
+            <div className='descript1'>Portrait moderne d'homme blond avec regard direct dans la caméra.</div>
+            <div className='descript2'>Fond gris accompagné d'habits de l'époque</div>    
         </div>
     </div>
     </div>
     )
 }
 export default CommunitySelfie
+ 
