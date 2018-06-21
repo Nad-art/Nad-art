@@ -1,0 +1,24 @@
+.tab-bar {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    font-size: 1px;
+
+}
+
+.tab-bar-tabs {
+    background-color: #333333; 
+    color: white;
+    font-size: 1px;
+}
+
+.link {
+    color: white; 
+    font-size: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

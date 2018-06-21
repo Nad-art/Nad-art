@@ -1,8 +1,10 @@
 import React from 'react'
 import Date from './Dates.js'
+import Tabbar from './Tabbar.js'
 
 
 import '../styles/Home.css'
+import '../styles/Tabbar.css'
 import nadar from '../images/nadar-home.jpeg'
 import camera from '../images/appareil-nadar.png'
 
@@ -25,6 +27,7 @@ const Home = () =>
 
       <div className='bottom-home'></div>
     </div>
+        <Tabbar />
   </div>
 
 
