@@ -1,22 +1,46 @@
-.slider, 
-.slider img{
-    height : 100%
-}
 .slider{
     position : relative;
+    height : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.slider .content-slide{
+    position: absolute;
+    width: 100;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slider .dates, 
+.slider h3, 
+.slider span{
+    z-index : 10;
+}
+.slider *{
+    background: transparent;
+}
+.slider img{  
+    height: 100%;
+    object-fit: cover;
+    object-position: 40%;
+    overflow: hidden;
+    z-index: -10;
 }
 
-.MuiMobileStepper-root-1{
-    background: transparent;
-    position: absolute;
-    top: 0;
-    left: calc(50% - 22px);
-    z-index: 50;
-}
-.MuiMobileStepper-dot-6{
+.slider div[class*="MuiMobileStepper-dot-"]{
     width : 10px;
     height : 10px;
+    z-index:5;
 }
-.MuiMobileStepper-dotActive-7{
+.slider div[class*="MuiMobileStepper-dotActive"]{
     background-color: #fff;
+}
+.image-slider{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
