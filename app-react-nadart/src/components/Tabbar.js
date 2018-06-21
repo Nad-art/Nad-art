@@ -19,7 +19,7 @@ const Tabbar = () => {
           <nav>
             <Link className='link' to='/' > <Tab icon={<HomeIcon />} label="Accueil" /> </Link>
             <Link className='link' to='community'> <Tab icon={<PublicIcon />} label="communauté" /></Link>
-            <Link className='link' to='/' > <Tab icon={<StarIcon />} label="Challenge" /> </Link>
+            <Link className='link' to='challenge' > <Tab icon={<StarIcon />} label="Challenge" /> </Link>
             <Link className='link' to='community'> <Tab icon={<PersonIcon />} label="Profil" /></Link>
           </nav>
           </Tabs>
