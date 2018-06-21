@@ -1,33 +1,44 @@
 import React from 'react'
 import { AppBar, Tabs, Tab } from '@material-ui/core'
-import HomeIcon from '@material-ui/icons/Home'
-import StarIcon from '@material-ui/icons/Star'
-import PersonIcon from '@material-ui/icons/Person'
-import PublicIcon from '@material-ui/icons/Public'
-import {  Link } from '@reach/router'
+import HomeIcon from '../images/icons/home.svg'
+import StarIcon from '../images/icons/medal.svg'
+import PersonIcon from '../images/icons/user.svg'
+import PublicIcon from '../images/icons/earth.svg'
+import { Link } from '@reach/router'
 import '../styles/Tabbar.css'
 
 
 const Tabbar = () => {
-    return (
-        <div className="tab-bar"> 
-       
-          <Tabs 
-            className="tab-bar-tabs"
-            fullWidth
-          >
-          <nav>
-            <Link className='link' to='/'  > <Tab icon={<HomeIcon />} label="Accueil" /> </Link>
-            <Link className='link' to='/community' > <Tab icon={<PublicIcon />} label="communauté" /></Link>
-            <Link className='link' to='/challenge' > <Tab icon={<StarIcon />} label="Challenge" /> </Link>
-             <Tab icon={<PersonIcon />} label="Profil" />
-          </nav>
-          </Tabs>
-  
+  return (
+    <div className="tab-bar">
+
+      <Tabs
+        className="tab-bar-tabs"
+        fullWidth
+      >
+        <nav className='navbar'>
+          <Link className='link' to='/'  >
+            <img className="icon-tab" src={HomeIcon} />
+            <span className="link-tab">Accueil</span>
+          </Link>
+          <Link className='link' to='/community' >
+            <img className="icon-tab" src={StarIcon} />
+            <span className="link-tab">Communauté</span>
+          </Link>
+          <Link className='link' to='/challenge' >
+            <img className="icon-tab" src={PersonIcon} />
+            <span className="link-tab">Challenge</span> </Link>
+          <div>
+            <img className="icon-tab" src={PublicIcon} />
+            <span className="link-tab">Profil</span>
+          </div>
+        </nav>
+      </Tabs>
 
 
-        </div>
-    )
+
+    </div>
+  )
 }
 
 export default Tabbar 
