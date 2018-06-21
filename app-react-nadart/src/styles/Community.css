@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'dance';
-    src: url('../fonts/DancingScript-Regular.ttf') format('ttf'),
+    font-family: 'cinzel';
+    src: url('../fonts/cinzel-Regular.otf') format('otf'),
 }
 
 .community-nadar {
@@ -89,7 +89,7 @@
 }
 
 .vote-like {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .name-selfie {
@@ -98,8 +98,10 @@
 
 .descript1 {
     margin-top: 90px;
+    font-family: 'cinzel';
 }
 
 .descript2 {
     margin-top: 15px;
+    font-family: 'cinzel';
 }
