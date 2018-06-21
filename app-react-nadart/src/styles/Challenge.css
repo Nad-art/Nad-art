@@ -44,17 +44,22 @@
     z-index:1;*/
     display: flex;
     justify-content: space-around;
-    float: center;
+    /*float: center;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 40px;*/
+    margin-top: 20px;
 }
 
 .selfie-capture {
     width:55px;
     height:75px;
     background-color:white;
-    margin-top: -20px;
+
     z-index:1;
  
    
+}
+.desc-selfie {
+    padding-top: 100px;
+    padding-left: 50px;
 }
