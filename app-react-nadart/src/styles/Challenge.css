@@ -1,0 +1,60 @@
+.challenge-nadar {
+    background-color: #dabc7e;
+    text-align: center;
+    height: 222px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    color: black;
+
+}
+.challenge-nadar p {
+    color: black;
+}
+.photo-span {
+    font-weight: bold;
+    
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size:20px;
+    line-height: 1.3;
+}
+
+.button-photo {
+    background-color: white;
+    padding : 10px;
+    max-width:275px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.extension-photo {
+    width:100%;
+    height:400px;
+    background-size:  cover;
+    background-image: url('../images/maeva.png')
+}
+
+.selfie-challenge {
+   /* position: relative;
+    z-index:1;*/
+    display: flex;
+    justify-content: space-around;
+    float: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.selfie-capture {
+    width:55px;
+    height:75px;
+    background-color:white;
+    margin-top: -20px;
+    z-index:1;
+ 
+   
+}
