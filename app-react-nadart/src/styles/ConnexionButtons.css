@@ -19,3 +19,16 @@ button span{
 a{
     text-decoration: none;
 }
+
+.facebook {
+    z-index: 50;
+}
+
+.google {
+    margin-right: 10px;
+}
+
+
+
+
+
