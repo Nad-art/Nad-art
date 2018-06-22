@@ -22,14 +22,14 @@ const Tabbar = () => {
             <span className="link-tab">Accueil</span>
           </Link>
           <Link className='link' to='/community' >
-            <img className="icon-tab" src={StarIcon} />
+            <img className="icon-tab" src={PublicIcon} />
             <span className="link-tab">Communauté</span>
           </Link>
           <Link className='link' to='/challenge' >
-            <img className="icon-tab" src={PersonIcon} />
+            <img className="icon-tab"  src={StarIcon}/>
             <span className="link-tab">Challenge</span> </Link>
           <div>
-            <img className="icon-tab" src={PublicIcon} />
+            <img className="icon-tab"  src={PersonIcon}/>
             <span className="link-tab">Profil</span>
           </div>
         </nav>
