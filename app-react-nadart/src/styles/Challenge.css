@@ -69,8 +69,8 @@
     left: calc(50% - 4px);
 }
 .desc-selfie {
-    padding-top: 100px;
-    padding-left: 42px;
+    margin-top: 25px;
+    margin-left: 42px;
     color: white;
     font-weight : 700;
     font-family: 'basker';
