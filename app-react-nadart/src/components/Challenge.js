@@ -21,10 +21,7 @@ const Challenge = () => {
       <div className="extension-photo">
       <div className="selfie-challenge">
           <div className="selfie-capture" onClick={()=>pict1="visible"}> <img src={maevaPicture} className='imgMini' width="50px" height="70px"/> </div>
-          <div className="selfie-capture" onClick={()=>{
-                pict2="visible"
-                console.log("pict2,",pict2 )}
-                }> <img src={maevaPicture} className={pict2}  width="50px" height="70px"/> </div>
+          <div className="selfie-capture" onClick={()=>{pict2="visible"}}> <img src={maevaPicture} className={pict2}  width="50px" height="70px"/> </div>
           <div className="selfie-capture"  onClick={()=>pict3="visible"}> <img src={maevaPicture} className={pict3}  width="50px" height="70px"/> </div>
           <nav>
           <Link className='link' to='/felicitation' >
@@ -32,6 +29,9 @@ const Challenge = () => {
           </Link>
           </nav>
         </div>
+      </div>
+      <div className="extension-photo">
+
         <div className="desc-selfie">
           <h4> Photo 1 </h4>
           <p> 12 juin 2018</p>

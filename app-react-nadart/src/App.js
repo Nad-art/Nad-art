@@ -3,6 +3,8 @@ import Connexion from './components/Connexion.js'
 import Community from './components/Community.js'
 import Challenge from './components/Challenge.js'
 import Felicitation from './components/Felicitation.js'
+import Parcours from './components/Parcours.js'
+
 import Home from './components/Home.js'
 
 import { Router, Link } from '@reach/router'
@@ -19,6 +21,8 @@ class App extends Component {
           <Challenge path='/challenge' />
           <Connexion path='/' />
           <Felicitation path='/felicitation' />
+          {/* <Connexion path='/' /> */}
+          <Parcours path='/' />
         </Router>
        
 

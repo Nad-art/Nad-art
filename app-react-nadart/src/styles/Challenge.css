@@ -7,17 +7,17 @@
     background-color: #dabc7e;
     text-align: center;
     height: 100%;
-    position: sticky;
     top: 0;
     width: 100%;
     color: black;
-    padding-bottom: 50px;
+    padding-bottom : 25px;
 }
 
 .challenge-nadar p {
     color: black;
+    max-width: 274px;
+    margin : 0 auto 20px auto
 }
-
 .photo-span {
     font-weight: bold;
 }
@@ -48,7 +48,7 @@
 .selfie-challenge {
     display: flex;
     justify-content: space-evenly;
-    margin-top: -20px;
+    margin-bottom: -50px;
 }
 .imgMini {
     margin-top:3px;
@@ -75,8 +75,8 @@
     left: calc(50% - 4px);
 }
 .desc-selfie {
-    margin-top: 25px;
-    margin-left: 42px;
+    padding-top: 42px;
+    padding-left: 29px;
     color: white;
     font-weight : 700;
     font-family: 'basker';
@@ -86,14 +86,6 @@
 }
 .desc-selfie p{
     font-size : 14x;
+    color: #fff;
+    text-align: left;
 }
-
-/*.visible {
-    display: block;
-    z-index: 0;
-}
-
-.invisible {
-    display: none;
-    z-index: 2;
-}*/
