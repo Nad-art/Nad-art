@@ -40,7 +40,6 @@
     object-fit: cover;
     object-position: 40%;
     overflow: hidden;
-    z-index: -10;
 }
 
 .slider div[class*="MuiMobileStepper-dot-"]{
