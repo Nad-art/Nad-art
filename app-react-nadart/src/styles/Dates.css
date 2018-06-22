@@ -17,17 +17,20 @@
 }
 p {
     color: #fff;
-    font-weight: 700;
 }
 
 .date-day {
     font-size: 40px;
+    line-height : 1;
+    font-weight: 900;
 }
 
 .date-month {
     font-size: 26px;
+    font-weight: 700;
 }
 
 .date-year {
     font-size: 18px;
+    font-weight: 700;
 }

@@ -1,65 +1,83 @@
+@font-face {
+    font-family: 'basker';
+    src: url('../fonts/Baskerville-Bold.otf') format('otf'),
+}
+
 .challenge-nadar {
     background-color: #dabc7e;
     text-align: center;
-    height: 222px;
+    height: 100%;
     position: sticky;
     top: 0;
     width: 100%;
     color: black;
-
+    padding-bottom: 50px;
 }
+
 .challenge-nadar p {
     color: black;
 }
+
 .photo-span {
     font-weight: bold;
-    
 }
 
 .title {
     padding-top: 20px;
     padding-bottom: 15px;
-    font-size:20px;
+    font-size: 20px;
     line-height: 1.3;
 }
 
 .button-photo {
     background-color: white;
-    padding : 10px;
-    max-width:275px;
+    padding: 10px;
+    max-width: 275px;
     margin: auto;
     margin-bottom: 20px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 12px 12px 10px 0 rgba(0, 0, 0, 0.16)
 }
 
 .extension-photo {
-    width:100%;
-    height:400px;
-    background-size:  cover;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
     background-image: url('../images/maeva.png')
 }
 
 .selfie-challenge {
-   /* position: relative;
-    z-index:1;*/
     display: flex;
-    justify-content: space-around;
-    /*float: center;
-    padding-left: 40px;
-    padding-right: 40px;*/
-    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-top: -20px;
 }
 
 .selfie-capture {
-    width:55px;
-    height:75px;
-    background-color:white;
-
-    z-index:1;
- 
-   
+    position : relative;
+    width: 55px;
+    height: 75px;
+    background-color: white;
+    z-index: 1;
+}
+.selfie-capture:first-child:after{
+    content: '';
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -4px;
+    left: calc(50% - 4px);
 }
 .desc-selfie {
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 42px;
+    color: white;
+    font-weight : 700;
+    font-family: 'basker';
+}
+.desc-selfie h4{
+    font-size : 30px;
+}
+.desc-selfie p{
+    font-size : 14x;
 }
