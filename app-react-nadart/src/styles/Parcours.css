@@ -1,0 +1,64 @@
+h1, p {
+  color: #000;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.header-para {
+  font-size: 14px;
+}
+
+.header-parcours {
+  height: 148px;
+  background-color: #dabc7e;
+}
+
+.map {
+  width: 100%;
+}
+
+.pulse {
+  position: absolute;
+  bottom: 10px;
+  right: -65px;
+  margin:100px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 75%;
+  background: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(246, 2, 2, 0.4);
+  animation: pulse 1s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(246, 2, 2, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 30px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(246, 2, 2, 0.4);
+    box-shadow: 0 0 0 0 rgba(246, 2, 2, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 30px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 30px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
