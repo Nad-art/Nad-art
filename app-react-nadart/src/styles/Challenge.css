@@ -58,6 +58,12 @@
     background-color: white;
     z-index: 1;
 }
+.selfie-capture img{
+    width: 86%;
+    margin: 0 auto;
+    border: 1px solid #dabc7e;
+    margin-top: 5px;
+}
 .selfie-capture:first-child:after{
     content: '';
     background: #fff;

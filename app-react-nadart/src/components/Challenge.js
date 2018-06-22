@@ -12,7 +12,7 @@ const Challenge = () => {
         <p> Plus que <span className="photo-span"> 3 photos </span>
         pour debloquer le billet pour la visite à 12€</p>
         <div className="selfie-challenge">
-          <div className="selfie-capture">  </div>
+          <div className="selfie-capture"><img src={maevaPicture} />  </div>
           <div className="selfie-capture"> </div>
           <div className="selfie-capture">  </div>
           <div className="selfie-capture">  </div>
