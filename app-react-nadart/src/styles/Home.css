@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'basker';
   src: url('../fonts/Baskerville-Bold.otf') format('otf'),
- }
+}
 
 .container-home {
   background-color: #dabc7e;
@@ -13,7 +13,7 @@
   margin-right: auto;
   width: 85%;
   background-color: #fff;
-  height: 319px;
+  height: 348px;
   margin-top: 20px;
   padding-bottom: 20px;
 }
@@ -29,21 +29,23 @@
   width: 97%;
   margin-top: 4px;
   text-align: center;
+  height: 200px;
+  object-fit: cover;
 }
 
 .date-home {
   position: absolute;
-  margin-top: 15px;
+  margin-top: 45px;
 }
 
 .bnf {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   position: absolute;
   right: 15px;
   top: 25%;
+  font-weight: 300;
 }
-
 
 .camera {
   width: 35%;
@@ -71,6 +73,7 @@
   font-family: 'basker';
   color: #000;
   font-weight: 600;
+  font-size : 23px;
 }
 
 .bkg-nadar {
@@ -94,6 +97,6 @@
   color: #fff;
   font-weight: 600;
   text-align: center;
-  font-size: 16px;
-  padding-top: 50px; 
+  font-size: 18px;
+  padding-top: 50px;
 }
