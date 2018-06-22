@@ -4,7 +4,7 @@ import Community from './components/Community.js'
 import Challenge from './components/Challenge.js'
 import Felicitation from './components/Felicitation.js'
 import Home from './components/Home.js'
-import Tabbar from './components/Tabbar.js'
+
 import { Router, Link } from '@reach/router'
 import 'reset-css'
 import './styles/App.css'

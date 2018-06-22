@@ -1,9 +1,17 @@
 .felicitation {
-    height:100%;
+    
+    height: 1000px;
     background-color: #001200;
 }
 
 .felicitation-gif {
     text-align:center;
     margin-top: 150px;
+    margin-left: -50px;
+}
+
+.tabbarDiv {
+    position: sticky;
+    bottom: 0;
+
 }
