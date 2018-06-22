@@ -9,17 +9,17 @@ const Challenge = () => {
       <div className="challenge-nadar">
         <h3 className="title"> LE CHALLENGE </h3>
         <div className="button-photo"> Prendre une nouvelle photo </div>
-        <p> Plus que <span className="photo-span"> 3 photos </span></p>
-        <p>pour debloquer le billet pour la visite à 12€</p>
-
-      </div>
-      <div className="extension-photo">
-      <div className="selfie-challenge">
+        <p> Plus que <span className="photo-span"> 3 photos </span>
+        pour debloquer le billet pour la visite à 12€</p>
+        <div className="selfie-challenge">
           <div className="selfie-capture">  </div>
           <div className="selfie-capture"> </div>
           <div className="selfie-capture">  </div>
           <div className="selfie-capture">  </div>
         </div>
+      </div>
+      <div className="extension-photo">
+
         <div className="desc-selfie">
           <h4> Photo 1 </h4>
           <p> 12 juin 2018</p>
