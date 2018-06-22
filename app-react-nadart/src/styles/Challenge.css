@@ -81,3 +81,13 @@
 .desc-selfie p{
     font-size : 14x;
 }
+
+.visible {
+    display: block;
+    z-index: 0;
+}
+
+.invisible {
+    display: none;
+    z-index: 2;
+}
