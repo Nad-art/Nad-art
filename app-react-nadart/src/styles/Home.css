@@ -105,16 +105,13 @@
   text-align: center;
   position: relative;
   font-family: 'basker';
-}
-
-.parcours-link img {
   width: 80%;
-}
-
-.text-parcours {
-  position: absolute;
-  bottom: 130px;
-  left: 85px;
+  background: url('../images/link-parcours.png');
+  height : 310px;
+  margin : 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-parcours h1, p {

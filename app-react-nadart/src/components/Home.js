@@ -32,7 +32,7 @@ const Home = () =>
         <h2 className='bottom-title'>LES NADARS <br /> PAR LES NADARS</h2>
       </div>
       <div className='parcours-link'>
-          <img src={linkParcours} alt="#"/>
+          {/* <img src={linkParcours} alt="#"/> */}
           <div className='text-parcours'>
             <h1>LE PARCOURS EXPO</h1>
             <p>ACCOMPAGNEZ VOTRE VISITE DE<br/> L'EXPOSITION AVEC CE<br/> PARCOURS DIGITAL</p>
