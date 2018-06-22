@@ -29,7 +29,8 @@ const Home = () =>
       </div>
       <Anecdote />
       <div className='bottom-home'>
-        <h2 className='bottom-title'>LES NADARS <br /> PAR LES NADARS</h2>
+        <h2 className='bottom-title'>ART ET SCIENCE, LA PROMOTION DE LA PHOTOGRAPHIE</h2>
+        <p className="bottom-text">la dernière partie de l’exposition, « Art et science », établit le lien des Nadar avec l’actualité de leur temps…</p>
       </div>
       <div className='parcours-link'>
           {/* <img src={linkParcours} alt="#"/> */}
