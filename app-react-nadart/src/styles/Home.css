@@ -100,3 +100,34 @@
   font-size: 18px;
   padding-top: 50px;
 }
+
+.parcours-link {
+  text-align: center;
+  position: relative;
+  font-family: 'basker';
+}
+
+.parcours-link img {
+  width: 80%;
+}
+
+.text-parcours {
+  position: absolute;
+  bottom: 130px;
+  left: 85px;
+}
+
+.text-parcours h1, p {
+  color: #fff;
+}
+
+.text-parcours h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.access {
+  margin-top: 20px;
+  font-size: 24px;
+  
+}

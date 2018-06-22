@@ -18,8 +18,8 @@ class App extends Component {
           <Home path='/home' />
           <Community path='/community' />
           <Challenge path='/challenge' />
-          {/* <Connexion path='/' /> */}
-          <Parcours path='/' />
+          <Connexion path='/' />
+          <Parcours path='/parcours' />
         </Router>
        
 

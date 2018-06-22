@@ -2,12 +2,13 @@ import React from 'react'
 import Date from './Dates.js'
 import Tabbar from './Tabbar.js'
 import Anecdote from './Anecdote.js'
-
+import { Link } from '@reach/router'
 
 import '../styles/Home.css'
 import '../styles/Tabbar.css'
 import nadar from '../images/nadar-home.jpeg'
 import camera from '../images/appareil-nadar.png'
+import linkParcours from '../images/link-parcours.png'
 
 
 const Home = () =>
@@ -29,6 +30,16 @@ const Home = () =>
       <Anecdote />
       <div className='bottom-home'>
         <h2 className='bottom-title'>LES NADARS <br /> PAR LES NADARS</h2>
+      </div>
+      <div className='parcours-link'>
+          <img src={linkParcours} alt="#"/>
+          <div className='text-parcours'>
+            <h1>LE PARCOURS EXPO</h1>
+            <p>ACCOMPAGNEZ VOTRE VISITE DE<br/> L'EXPOSITION AVEC CE<br/> PARCOURS DIGITAL</p>
+            <Link to="/parcours"> 
+              <p className='access'>accéder > </p>
+            </Link> 
+          </div>
       </div>
     
     <Tabbar />

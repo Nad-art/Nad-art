@@ -3,8 +3,6 @@ import '../styles/Community.css'
 import Tabbar from './Tabbar.js'
 import CommunitySelfie from './CommunitySelfie.js'
 
-
-
 const Community = () => {
     return (
         <div> 
@@ -20,7 +18,6 @@ const Community = () => {
             <Tabbar />
         </div>
     )
-
 }
 
 export default Community
