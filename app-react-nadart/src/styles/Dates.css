@@ -23,14 +23,19 @@ p {
     font-size: 40px;
     line-height : 1;
     font-weight: 900;
+    color : #fff;    
 }
 
 .date-month {
     font-size: 26px;
     font-weight: 700;
+    color : #fff;    
+
 }
 
 .date-year {
     font-size: 18px;
     font-weight: 700;
+    color : #fff;    
+
 }
